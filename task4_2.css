@@ -1,0 +1,170 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    /* height: 2000px; */
+    
+}
+.parent_div{
+    width: 1366px;
+background: url(./assest/pic/background.png);
+
+}
+.parent_div .nav_div{
+    width: 100%;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: baseline; */
+    position: relative;
+    padding: 30px 30px;
+
+}
+.parent_div .list1,.list2{
+    display: flex;
+    gap: 0  30px;
+}
+.parent_div a{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+color:#938C8C;
+text-decoration: none;
+}
+
+
+
+.parent_div .list2 .login{
+    color:#282828;
+    font-weight: bold;
+    
+    
+}
+.parent_div .list2 .register{
+    color: #282828;
+    
+    
+}
+.parent_div .body {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.parent_div .body .div_cards{
+    width: 100%;
+}
+.parent_div .body .div_cards h1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#000000;
+    padding-top: 100px;
+    
+}
+.parent_div .body .div_cards .div_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 60px;
+}
+.parent_div .body .div_cards .div_card div img{
+    width: 100px;
+    height: 100px;
+}
+.parent_div .body .div_cards .div_card div a{
+
+color: #938C8C;
+font-size: xx-large;
+}
+
+.parent_div .body .div_cards .div_card div p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#282828;
+    margin-top: 15px;
+    
+    
+}
+
+.parent_div .my_foot{
+    width: 100%;
+    
+    background-color: #282828;
+    margin-top: 40px;
+    
+    
+    
+}
+.parent_div .my_foot .div_foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+.parent_div .my_foot .div_foot div{
+   text-align: left;
+   /* margin-bottom: 30px; */
+   margin-top: 25px;
+
+    
+
+}
+.parent_div .my_foot .div_foot div h1{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+/* line-height: 29px;
+letter-spacing: 0em;*/
+text-align: left;
+color:#FFFFFF;
+
+
+
+}
+.parent_div .my_foot .div_foot div p{
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+/* line-height: 24px; */
+/* letter-spacing: 0em; */
+text-align: left;
+color:#FFFFFF;
+padding: 10px 0px
+
+
+}
+.parent_div .my_foot .last_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0% 0px 30px 80px;
+
+}
+.parent_div .my_foot .last_line img{
+    width: 200px;
+    margin-right: 2px;
+}
+.parent_div .my_foot .last_line hr{
+    width: 70%;
+    background-color:#FFFFFF;
+    height: 1px;
+    margin-left: 5px;
+    
+}
+
+ 

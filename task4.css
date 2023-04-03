@@ -1,0 +1,298 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    /* height: 2000px; */
+    
+}
+.parent_div{
+    width: 1366px;
+background: url(./assest/pic/background.png);
+
+}
+.parent_div .nav_div{
+    width: 100%;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: baseline; */
+    position: relative;
+    padding: 30px 30px;
+
+}
+.parent_div .list1,.list2{
+    display: flex;
+    gap: 0  30px;
+}
+.parent_div a{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+color:#938C8C;
+text-decoration: none;
+}
+
+
+
+.parent_div .list2 .login{
+    color:#282828;
+    font-weight: bold;
+    
+    
+}
+.parent_div .list2 .register{
+    color: #282828;
+    
+    
+}
+.parent_div section{
+    text-align: center;
+}
+.parent_div section h1{
+    width: 100%;
+    padding: 50px 0 20px 0;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.parent_div section pre{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#000000;
+    
+    
+}
+.parent_div section button{
+height: 32px;
+width: 180px;
+border-radius: 4px;
+padding: 4px 32px 4px 32px;
+background-color:#282828;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+/* line-height: 24px;
+letter-spacing: -0.019em; */
+text-align: center;
+color:#FFFFFF;
+
+
+
+}
+.parent_div .sec2 div{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 15px 0;
+    width: 100%;
+    gap: 0 20px;
+}
+.parent_div .sec2 div input{
+    border: none;
+    width: 40%;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #938C8C;
+background-color: transparent;
+
+
+}
+.parent_div .sec2 ul{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 25px;
+    list-style: none;
+
+}
+.parent_div .sec2 ul .all{
+    color:#282828;
+    
+}
+.parent_div .div_cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding:30px 30px;
+}
+.parent_div .div_cards .card{
+    background-color:#FFFFFF;
+border-radius: 10px;
+padding: 25px 40px;
+
+}
+.parent_div .div_cards .card .title{
+    display: flex;
+    /* height: 100px; */
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.parent_div .div_cards .card .title .one{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.parent_div .div_cards .card .title .two{
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: right;
+     
+}
+.parent_div .div_cards .card .body h1{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.parent_div .div_cards .card .body span{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#938C8C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    
+    
+}
+.parent_div .div_cards .card .body label{
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color:#000000;
+
+
+}
+.parent_div .div_cards .card .footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.parent_div .div_cards .card .footer .p{
+    font-family: Montserrat;
+font-size: 8px;
+font-weight: 400;
+
+color:#71AA27;
+
+}
+.parent_div .div_cards .card .footer .pp{
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 400;
+    color:#938C8C;
+    
+    
+}
+.parent_div .div_cards .card button{
+width: 300px;
+border-radius: 4px;
+padding: 6px 32px 6px 32px;
+background-color:#282828;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+/* line-height: 24px;
+letter-spacing: -0.019em; */
+text-align: center;
+color:#FFFFFF;
+}
+.parent_div .my_foot{
+    width: 100%;
+    
+    background-color: #282828;
+    
+    
+    
+}
+.parent_div .my_foot .div_foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 20px;
+
+}
+.parent_div .my_foot .div_foot div{
+   text-align: left;
+   margin-bottom: 30px;
+   margin-top: -25px;
+
+    
+
+}
+.parent_div .my_foot .div_foot div h1{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+/* line-height: 29px;
+letter-spacing: 0em;*/
+text-align: left;
+color:#FFFFFF;
+
+
+
+}
+.parent_div .my_foot .div_foot div p{
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+/* line-height: 24px; */
+/* letter-spacing: 0em; */
+text-align: left;
+color:#FFFFFF;
+padding: 10px 0px
+
+
+}
+.parent_div .my_foot .last_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0% 0px 30px 80px;
+
+}
+.parent_div .my_foot .last_line img{
+    width: 200px;
+    margin-right: 2px;
+}
+.parent_div .my_foot .last_line hr{
+    width: 70%;
+    background-color:#FFFFFF;
+    height: 1px;
+    margin-left: 5px;
+    
+}
+
+ 
